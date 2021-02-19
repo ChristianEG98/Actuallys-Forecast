@@ -3,13 +3,11 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-body{
     font-family: 'Quicksand', sans-serif;
+}
+body{
     font-size: 2.5rem; 
 }
-
 .container{
     height: 100vh;
     width: 100vw;
@@ -19,28 +17,101 @@ body{
     justify-content: center;
     background: radial-gradient(circle,rgba(145, 189, 255, 0.8) 20%,rgb(108, 160, 255) 65%, rgb(33, 72, 143) 110%);
 }
-
 .title{
     display: flex;
     flex-direction: row;
     font-size: 3.5rem;
     font-weight: 400;
 }
-
-img{
+#icon{
     height: 150px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
 p{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 #att{
     position: absolute;
     bottom: 10px;
     margin-top: 30px;
     font-size: small;
+}
+#input_ciudad{
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    border-bottom: black 2px solid;
+    padding: 5px;
+    font-size: 3rem;
+    background-image: url("img/search.png");
+    background-size: 35px 35px;
+    background-position: 5px 20px;
+    background-repeat: no-repeat;
+    padding-left: 55px;
+}
+#input_ciudad:hover{
+    width: 50%;
+}
+#input_ciudad:focus{
+    outline: none;
+    width: 50%;
+}
+::placeholder{
+    color: black;
+}
+#search_city{
+    height: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#container-days{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 40px;
+}
+#container-days img{
+    height: 100px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black 3px solid;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 6px;
+    height: 290px;
+    width: 150px;
+}
+li p{
+    font-size: x-large;
+    margin: 0;
+    margin-bottom: 5px;
+}
+ 
+li div{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+#temps_box{
+    border-top: black 2px solid;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+#min_temp{
+    color: blue;
+}
+#max_temp{
+    color: brown;
 }
