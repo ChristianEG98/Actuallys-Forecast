@@ -1,5 +1,5 @@
 # Actuallys-Forecast
-Website that shows you the current forecast on any location.
+Website that shows current and seven days forecast on any location.
 
 Website URL: https://actuallys-forecast.firebaseapp.com/
 
